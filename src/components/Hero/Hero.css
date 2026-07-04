@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.h_title{
+    font-family: "Poiret One", sans-serif;
+
+    font-size: 40px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+    color: #d1b08b;
+
+    text-align: center;
+
+    line-height: 1;
+
+    text-shadow:
+        1px 1px 0 rgba(255,255,255,.08),
+        0 0 12px rgba(209,176,139,.15);
+
+    user-select: none;
+     
+}

@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 .navbar{
     max-width:100%;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 7%;
+    padding: 20px 7%;
+    font-size: 18px;
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,28 +17,52 @@
     border: 2px solid rgba(255,255,255,0.15);
 }
 
-.logo{
-    color:white;
+.w_name{
+    color:bisque;
+    font-family: "Poiret One", sans-serif;
+    font-size:40px;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
-ul{
+.nav_links{
     flex: 1;
     list-style: none;
     text-align: center; 
+    
 }
-
-ul li{
-    color: black;
+    
+.nav_links li{
+    color:azure;
     display: inline-block;
-    margin: 10px 20px;
-    cursor: pointer;
+    margin: 10px 40px;
+    cursor: pointer;   
+}
+.nav_links a{
+     font-family: "Poiret One", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
     
-    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
 }
 
-   
+.nav_links a:hover {
+    color: #D4AF37;
+    transition: 0.3s ease;
+}
+
+  
 .btn{
+    font-family: "Poiret One", sans-serif;
     cursor: pointer;
     padding:18px 45px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 
     color:rgb(255, 255, 255);
     font-size: 18px;
@@ -51,14 +80,16 @@ ul li{
     0 0 30px rgba(0,180,255,.3),
     inset 0 1px 1px rgba(255,255,255,.3);
 
-    transition:.3s;
+    transition:.3s ease;
 }
 
 .btn:hover{
 
-    transform:translateY(-4px);
+    transform:translateY(-2px);
 
     box-shadow:
     0 0 45px rgba(82, 189, 235, 0.6);
-
+    
+     color: #D4AF37;
+    transition: 0.3s ease;
 }

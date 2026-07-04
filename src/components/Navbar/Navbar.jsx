@@ -4,10 +4,10 @@ function Navbar() {
   return (
     <>
     
-    <nav className="navbar">
+    <nav  className="navbar">
       
-      <div className="logo">
-        <h2>🍕 Bella Vista</h2>
+      <div className="w_name">
+        🍕 Bella Vista
       </div>
 
       <ul className="nav_links">
