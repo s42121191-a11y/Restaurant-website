@@ -1,31 +1,64 @@
-.hero {
-  background-image: url("../../assets/images/back_g_1.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
- 
- 
+.navbar{
+    max-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 7%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter:blur(20px);
+   -webkit-backdrop-filter: blur(15px);
+    border: 2px solid rgba(255,255,255,0.15);
 }
-
-*{
-    margin: 0px;
-    font-family:sans-serif;
-    
-
-}
-
 
 .logo{
-    background-color:aquamarine;
-    padding:10px;
-    border-radius: 10px;
-    margin: 10px;
-    text-align: center;
-
-
+    color:white;
 }
-.nav-links{
-   
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center; 
+}
+
+ul li{
+    color: black;
+    display: inline-block;
+    margin: 10px 20px;
+    cursor: pointer;
     
+    
+}
+
+   
+.btn{
+    cursor: pointer;
+    padding:18px 45px;
+
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:30px;
+
+    box-shadow:
+    0 0 30px rgba(0,180,255,.3),
+    inset 0 1px 1px rgba(255,255,255,.3);
+
+    transition:.3s;
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 0 45px rgba(82, 189, 235, 0.6);
+
 }
