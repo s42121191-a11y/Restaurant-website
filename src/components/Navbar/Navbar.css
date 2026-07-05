@@ -59,9 +59,7 @@
     font-family: "Poiret One", sans-serif;
     cursor: pointer;
     padding:18px 45px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.7px;
     text-transform: uppercase;
 
     color:rgb(255, 255, 255);
@@ -70,7 +68,7 @@
 
     background:rgba(255,255,255,.08);
 
-    border:1px solid rgba(255,255,255,.2);
+    border:2px solid rgba(255,255,255,.2);
 
     backdrop-filter:blur(20px);
 

@@ -7,13 +7,10 @@
 }
 
 body{
- background-attachment: fixed;
-  min-height: 100vh;background-image: url("../src/assets/images/reserved.jpg");
+    min-height: 100vh;background-image: url("../src/assets/images/reserved.jpg");
   background-size: cover;
+ background-attachment: fixed;
   background-position: center;
-   background-attachment: fixed;
-  min-height: 100vh;
-
- 
+  min-height: 100vh; 
 
 }
