@@ -4,7 +4,7 @@ function Hero() {
    return(
     <>
    
-    <div className='h_container'>
+    <div className='h_container' datd-aos='fade-up'>
 
         <h3 className='h_head'> Welcome To Our Delicious Corrner</h3>
         <span className='h_title'>The Finest Dishes</span>
