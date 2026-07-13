@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&display=swap');
+
+.reservation {
+    min-height: 100vh;
+    background:linear-gradient(to bottom, #34117E,#B796FE );
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.reservation-overlay {
+    min-height: 100vh;
+    background: rgba(0,0,0,0.60);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+
+    padding:80px 20px;
+   
+}
+
+
+.reservation-content {
+
+    width:100%;
+    max-width:1000px;
+    text-transform: uppercase;
+   
+    display:grid;
+    grid-template-columns:1fr 1fr;
+     gap:60px;
+
+    color:hsl(259, 98%, 88%);
+    
+}
+
+
+.reservation-text h2 {
+
+    font-size:60px;
+    margin-bottom:20px;
+     letter-spacing: 1px;
+    text-align: center;
+    
+   font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+
+   box-shadow: 7px 10px 10px;
+   border-radius: 15px;
+   padding: 20px;
+  
+ animation: right_slide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+}
+
+
+.reservation-text p {
+
+    font-size:18px;
+    line-height:1.5;
+    font-family: "Merienda", cursive;
+    letter-spacing: 1px;
+    text-align: center;
+     color:hsl(259, 98%, 92%);
+
+      box-shadow: 7px 10px 10px;
+      border-radius: 15px;
+        padding: 20px;
+        margin-top: 50px;
+
+
+
+}
+
+
+
+.reservation-form {
+
+    background:#6731dbb9; 
+    box-shadow: 7px 10px 10px;
+   
+
+    padding:35px;
+    border-radius:15px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:15px;
+
+    animation: slide_up linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+
+}
+.reservation-form ::placeholder{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    color: #020403;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+
+  font-size: 16px;
+   font-family: "Nunito", sans-serif;
+    color: #020403;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding:15px;
+
+    border:none;
+    background:hsla(259, 100%, 95%, 0.964);
+    border-radius:10px;
+    font-size:16px;
+
+}
+
+
+
+.reservation-form textarea {
+
+    height:100px;
+    resize:none;
+}
+
+
+
+.reservation-form button {
+
+    font-family: "Nunito", sans-serif;
+    color:  #020403;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding:15px;
+    border-radius:15px;
+    border:none;
+    background:linear-gradient(to right, hsl(259, 70%, 30%),#B796FE );
+
+    color:rgb(0, 0, 0);
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.reservation-form button:hover {
+     transform:scale(1.04);
+     border:4px solid hsl(259, 70%, 40%);
+     box-shadow: 3px 3px 3px white;
+
+}
+ 
+@keyframes slide_up{
+   from{
+    opacity: 0;
+    transform: translateY(300px);
+ }
+ to{
+    opacity: 1;
+    transform: translateY(5px) ease;
+}
+}
+ 

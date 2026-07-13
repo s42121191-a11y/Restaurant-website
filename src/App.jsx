@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import About from "./components/About/About.jsx"
 import MenuCard from "./components/Menu/MenuCard.jsx";
+import Reservation from './components/Reservation/Reservation.jsx';
+import Testimonial from './components/Testimonials/Testimonial.jsx';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,6 +28,8 @@ function App() {
       <Hero />
       <About/>
       <MenuCard/>
+      <Reservation/>
+      <Testimonial/>
 
     </>
   );

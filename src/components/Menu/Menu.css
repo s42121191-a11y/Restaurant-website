@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .Menu_cards{
-   background-color:  #1b130e;
+   background: linear-gradient(to bottom ,#1b130e,hsl(259, 77%, 12%)) ;
     width: 100%;
 }
 
@@ -27,18 +27,23 @@
     color: hsl(33, 100%, 85%);
 
 }
+
 .menu_struct{
     display: inline-block;
    
     width: 300px;
     height: 620px;
     padding: 15px;
+    border:5px solid hsl(48, 100%, 85%);
      overflow:hidden;
      background-color:cornsilk;
-     box-shadow: black  5px 7px 29px 0px;
+     box-shadow: hsl(0, 0%, 80%)  4px 3px 7px 1px;
      border-radius: 10px;
      margin:50px 1px;
      
+     animation: right_slide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 37%;
 }
 .menu_struct img{
     width: 100%;
@@ -132,40 +137,4 @@
     transition: 0.5s ease;
 }
 
-/* scrool animation */
-
-@keyframes slide_r{
- from{
-    opacity: 0;
-    transform: translateX(-300px);
- }
- to{
-    opacity: 1;
-    transform: translateX(10px) ease;
- }
-}
  
-.menu_struct{
-    animation: slide_r linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-
-@keyframes slide_l{
- from{
-    opacity: 0;
-    transform: translateX(300px);
- }
- to{
-    opacity: 1;
-    transform: translateX(5px) ease;
- }
-}
-
-.menu_head{
-    animation: slide_l linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-
-}

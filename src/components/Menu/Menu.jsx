@@ -16,7 +16,7 @@ const Menu = (props) => {
        <p className='stars'>{props.rating}</p>
        <p className='f_desc'>{props.descrip}</p>
       </div>
-       <button className='exp_btn'>Explore more</button>
+       <button className='exp_btn'>book now</button>
 
     </div>
   
