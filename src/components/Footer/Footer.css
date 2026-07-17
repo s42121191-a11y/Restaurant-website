@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Permanent+Marker&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer_component{
+    width:100%;
+    height:60vh;
+
+    background:linear-gradient(to bottom,#E3E1D9,#B4B4B8);
+}
+
+.footer_overlay{
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.101);
+    
+}
+
+.footer_content{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+
+}
+
+/* 1st column contant*/
+
+.social_media{
+   width: 450px;
+   height: 350px;  
+
+   padding: 10px;
+   margin: 30px;
+   border-radius: 20px;
+}
+.social_media h2{
+   font-family: "Montserrat", sans-serif;
+   font-size: 28px;
+   padding: 20px;
+   letter-spacing: 2.5px;
+   text-align: center;
+
+}
+.social_media p{
+   font-family: "Montserrat", sans-serif;
+   text-align:left;
+   font-size: 19px;
+   padding: 10px;
+   letter-spacing: 1.2px;
+   line-height: 1.5;
+   
+
+}
+.socials-container{
+   
+   margin-top: 60px;
+  display: flex;
+  gap: 50px;
+}
+.socials-container a{
+  background-color:#E3E1D9;
+  padding: 0.8em;
+  border-radius: 50%;
+  height: 74px;
+  width: 74px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.socials-container a svg{
+  height: 43px;
+}
+.socials-container a::before{
+  content: attr(data-social);
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1em;
+  font-size: 17px;
+  border-radius: 100px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  transform: translateY(-30px) rotate(25deg);
+  opacity: 0;
+  transition: 200ms cubic-bezier(.42,0,.44,1.68);
+}
+.socials-container a:hover{
+  background-color: var(--color);
+  fill: aliceblue;
+}
+.socials-container a::after{
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid var(--color);
+  transform: translateY(0) rotate(25deg);
+  opacity: 0;
+  transition: 200ms cubic-bezier(.42,0,.44,1.68);
+}
+.socials-container a:hover::before{
+  transform: translateY(-72px) rotate(0);
+  opacity: 1;
+}
+.socials-container a:hover::after{
+  transform: translateY(-47px) rotate(0);
+  opacity: 1;
+}
+
+
+/* 2st column contant*/
+
+.navi_links{
+    width: 450px;
+   height: 350px;
+    padding: 10px;
+   margin: 30px;
+   border-radius: 20px;
+
+
+
+}
+.navi_links ul{
+    font-family: "Montserrat", sans-serif;
+   font-size: 28px;
+   padding: 20px;
+   font-weight: 700;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   text-align: center;
+}
+.navi_links li {
+   font-family: "Montserrat", sans-serif;
+   
+  text-align: left;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   font-size: 19px;
+    padding: 5px;
+     margin-top: 30px;
+   text-decoration: none;
+   list-style: none;
+   font-weight: 500;
+   line-height: 0.7;
+}
+
+.navi_links a:hover{
+   color:#FFFFFF;
+   transition: 300ms ease;
+   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+
+}
+.navi_links a{
+   text-decoration: none;
+   color:#1c1c1c;
+   margin-left: 40%; 
+
+}
+
+
+
+
+
+/* 3rd column contant*/
+
+.contact_us{
+    height: 350px;
+   width: 350px;
+ 
+   padding: 30px;
+   margin: 30px 10px;
+  
+}
+.contact_title{
+   font-family: "Montserrat", sans-serif;
+   font-size: 28px;
+   font-weight: 700;
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   
+}
+.contact_content h2{
+   font-family: "Montserrat", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 10px;
+   letter-spacing: 1px;
+   line-height: 1;
+   margin-top: 20px;
+}
+
+
+.footer_rights h2{
+   width: 100%;
+    font-family: "Montserrat", sans-serif;
+   font-size: 23px;
+   font-weight: 600;
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+}

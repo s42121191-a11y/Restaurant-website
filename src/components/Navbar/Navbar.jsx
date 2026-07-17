@@ -1,5 +1,5 @@
 import "./Navbar.css";
-
+import logo_1 from '../../assets/images/logo_1.png'
 function Navbar() {
   return (
     <>
@@ -7,7 +7,7 @@ function Navbar() {
     <nav  className="navbar">
       
       <div className="w_name">
-        🍕 Bella Vista
+      <h2><img width="52" height="52" src="https://img.icons8.com/windows/32/redhat.png" alt="redhat"/> Bella Vista</h2>
       </div>
 
       <ul className="nav_links">

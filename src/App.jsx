@@ -5,6 +5,7 @@ import About from "./components/About/About.jsx"
 import MenuCard from "./components/Menu/MenuCard.jsx";
 import Reservation from './components/Reservation/Reservation.jsx';
 import Testimonial from './components/Testimonials/Testimonial.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +30,10 @@ function App() {
       <About/>
       <MenuCard/>
       <Reservation/>
-      <Testimonial/>
+       <Testimonial/>
+       <Footer/>
+      
+
 
     </>
   );

@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 7%;
+    padding: 25px 7%;
     font-size: 18px;
 
     background-size: cover;
@@ -17,13 +17,14 @@
     border: 2px solid rgba(255,255,255,0.15);
 }
 
-.w_name{
+.w_name h2{
     color:bisque;
     font-family: "Poiret One", sans-serif;
     font-size:40px;
     font-weight: 600;
     letter-spacing: 3px;
 }
+
 .nav_links{
     flex: 1;
     list-style: none;
@@ -50,8 +51,9 @@
 }
 
 .nav_links a:hover {
-    color: #D4AF37;
+    color: hsl(46, 85%, 62%);
     transition: 0.3s ease;
+    
 }
 
   

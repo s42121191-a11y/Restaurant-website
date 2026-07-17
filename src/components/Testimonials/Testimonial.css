@@ -4,7 +4,7 @@
 
 
 .testimonial_cards{
-   
+
    height: 100vh;
  /* background: linear-gradient(to bottom,#B4B4B8,#bdc7ce); */
  /*background-color:  #1c1c1c;*/
@@ -59,8 +59,8 @@
      padding: 2em;
 }
 .cards{
-    flex:0 0 450px;
-    height: 400px;
+    flex:0 0 350px;
+    height: 420px;
     padding:1em;
    font-weight: 900;
    
@@ -118,6 +118,8 @@
 .cards img{
     border: 2px solid #D4AF37;
     border-radius: 20px;
+   max-width: 200px;
+    max-height: 200px;
     
     
 }
@@ -128,6 +130,7 @@
     text-transform: uppercase;
     padding: 20px;
     color:#D4AF37; 
+    font-size: 25px;
 
     
 }
