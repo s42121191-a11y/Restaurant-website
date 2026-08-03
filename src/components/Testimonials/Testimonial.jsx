@@ -12,7 +12,7 @@ import pro_6 from '../../assets/images/pro_6.jpeg'
 const Testimonial = () => {
   return (
    <>
-   <div className='testimonial_cards'>
+   <div className='testimonial_cards' id='Testimonial'>
    
     <div className='overlay_back'>
      <h1 className='test_title'>our happy customers</h1>

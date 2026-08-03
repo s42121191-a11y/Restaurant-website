@@ -4,15 +4,15 @@
 
 .about_container{
      min-height: 100vh;
-    background-image: url("../src/assets/images/backimg_2.jpeg");
+   /* background-image: url("../src/assets/images/backimg_2.jpeg");*/
   background-size: cover;
  background-attachment: fixed;
   background-position: center;
-  min-height: 100vh; 
-    
+     
     
     margin-top: 130px;
 }
+
 
 
 .about_title {
@@ -29,7 +29,7 @@
 
       text-align: center;
       padding-top: 7%;
-      margin-bottom: 50px;
+      
 }
 
 
@@ -48,7 +48,7 @@
 .about_img_1 img{
     flex:1;
 
-    margin-left: 15%;
+    margin-left: 13%;
     margin-top:3%;
     display:block;
     border-radius: 15px;

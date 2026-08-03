@@ -4,8 +4,8 @@ import './Footer.css'
 const Footer = () => {
   return (
 
-    <div className='footer_component'>
-     <div className='footer_overlay'>
+    <div className='footer_component' id='Footer'>
+    
         <div className='footer_content'>
 
             <div className='social_media'>
@@ -45,10 +45,10 @@ const Footer = () => {
 
             <div className='navi_links'>
           <ul >navigation
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="#Hero">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Testimonial">Testimonial</a></li>
         
         </ul> 
          </div>
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
      </div>
-    </div>
+    
 
     
   )

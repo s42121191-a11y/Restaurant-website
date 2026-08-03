@@ -2,7 +2,7 @@ import "./Reservation.css";
 
 function Reservation() {
   return (
-    <section className="reservation">
+    <section className="reservation" id="Reservation">
       <div className="reservation-overlay">
 
         <div className="reservation-content">

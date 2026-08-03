@@ -5,7 +5,7 @@ const Menu = (props) => {
   return (
     <>
    
-    <div className='menu_struct'>
+    <div className='menu_struct' id='Menu'>
        
     <div className='menu_img'><img   src={props.img} alt='Food pic'/></div>  
 

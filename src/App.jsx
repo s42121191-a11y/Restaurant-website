@@ -7,34 +7,23 @@ import Reservation from './components/Reservation/Reservation.jsx';
 import Testimonial from './components/Testimonials/Testimonial.jsx';
 import Footer from './components/Footer/Footer.jsx';
 
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Router } from 'react-router-dom';
 
 
 
 function App() {
-
-    useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-    });
-  }, []);
-
-
+  
   return (
-    <>
-      <Navbar />
+  <>
+
+     <Navbar />
       <Hero />
       <About/>
       <MenuCard/>
+      <Testimonial/>
       <Reservation/>
-       <Testimonial/>
-       <Footer/>
-      
-
-
+       <Footer/> 
     </>
   );
 }

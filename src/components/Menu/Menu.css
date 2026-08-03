@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .Menu_cards{
-   background: linear-gradient(to bottom ,#1b130e,hsl(259, 77%, 12%)) ;
+  /* background: linear-gradient(to bottom ,#1b130e,hsl(259, 77%, 12%)) ;*/
     width: 100%;
 }
 
@@ -16,11 +16,11 @@
      padding-bottom: 20px;
     color: hsl(33, 100%, 75%);
 
-    background: linear-gradient(
+ /*   background: linear-gradient(
     to bottom,
     #2b1d14,
     #1b130e
-    );
+    );*/
      
 }
 .menu_subhead{

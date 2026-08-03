@@ -6,7 +6,7 @@ import React from 'react'
 const About = () => {
   return (
    <>
-   <div className="about_container">
+   <div className="about_container" id='About'>
 
       <h1 className="about_title">About us</h1>
       <div className="about_row">
