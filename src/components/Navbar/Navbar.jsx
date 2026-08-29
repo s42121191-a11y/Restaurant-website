@@ -10,15 +10,15 @@ function Navbar() {
     <nav  className="navbar_container" id="Navbar">
       
       <div className="w_name">
-      <h2><a href='#Hero'>Bella Vista</a></h2>
+      <h2 className="regular-txt"><a href='#Hero'>Bella Vista</a></h2>
       </div>
 
-      <ul className="nav_links">
-        <li><a href="#Hero"> Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Menu">Menu</a></li>
-        <li><a href="#Testimonial">Testimonial</a></li>
-        <li><a href="#Footer">Contact</a></li>
+      <ul className="nav_links ">
+        <li><a href="Hero"> Home</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Menu">Menu</a></li>
+        <li><a href="Testimonial">Testimonial</a></li>
+        <li><a href="Footer">Contact</a></li>
         </ul> 
         <div>
         </div>

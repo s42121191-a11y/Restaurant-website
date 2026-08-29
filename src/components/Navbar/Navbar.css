@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-
 .navbar_container{
-    background-color: black;
-
-
-    max-width:100%;
-    height: 50px;
+    
+     max-width:100%;
+     height: 4em;
     
    
     display: flex;
@@ -13,21 +10,15 @@
     justify-content: space-between;
     padding: 25px 7%;
     font-size: 18px;
-
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     backdrop-filter:blur(20px);
-   -webkit-backdrop-filter: blur(15px);
-    border: 2px solid rgba(255,255,255,0.15);
+    border: 3px solid rgba(255,255,255,0.15);
     
 }
 
 .w_name h2 a{
     color:bisque;
-    font-family: "Poiret One", sans-serif;
-    font-size:40px;
-    font-weight: 600;
+   
+    font-size:2em;
     letter-spacing: 3px;
     text-decoration: none;
     
@@ -47,8 +38,7 @@
     cursor: pointer;   
 }
 .nav_links a{
-     font-family: "Poiret One", sans-serif;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
 
     
